@@ -1,0 +1,16 @@
+
+<div>
+    <section class="background-image">
+		<br><br><br><br><br><br><br>
+		<form class="login-form" (submit)="goToLogin(); $event.preventDefault()">
+			<h2 style="color: rgb(0, 0, 0);">Connectez-vous</h2><br>
+			<label for="username"></label>
+			<input type="text" id="username" name="username" [(ngModel)]="username" placeholder="Votre nom">
+
+			<label for="password"></label>
+			<input type="password" id="password" name="password" [(ngModel)]="password" placeholder="Password">
+			<button type="submit" class="hero-btn" style="background-color: #f44336;">Se connecter</button>
+		</form>
+	</section>
+</div >
+

@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row">
+      <div class="col-md-4" *ngFor="let item of items">
+        <div class="card border-0 text-center">
+          <img [src]="item.imagePath" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h5 class="card-title font-weight-bold">{{item.title}}</h5>
+            <p class="card-text text-danger">{{item.price}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

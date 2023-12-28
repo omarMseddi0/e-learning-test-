@@ -1,0 +1,55 @@
+.banner {
+    display: block;
+    background-image: url('/assets/yosa.jpg');
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.text-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+
+.text-box button {
+    background-color: red;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease; /* Add a smooth transition for the background color */
+}
+
+.text-box button:hover {
+    background-color: darkred; /* Change the background color on hover */
+}
+.text-boxa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px; /* Add padding as needed */
+}
+
+.text-boxa h1 {
+    margin: 0; /* Remove default margin for h1 */
+}
+
+.text-boxa button {
+    background-color: red;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.text-boxa button:hover {
+    background-color: darkred;
+}
